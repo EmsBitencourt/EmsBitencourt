@@ -1,20 +1,17 @@
-# Nome da Actions:  
 name: Snake Game
-
-on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  
 
 # Controlador do tempo que sera feito a atualização dos arquivos.
 on:
 
-push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  schedule:
+schedule:
       # Será atualizado a cada 5 horas.
     - cron: "0 */5 * * *"
+
+push:
+    branches: [ "main" ]
+  pull_request:  
+    branches: [ "main" ]
+  
 
 # Permite executar na na lista de Actions (utilizado para testes de build).
 workflow_dispatch:
