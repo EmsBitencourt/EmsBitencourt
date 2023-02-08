@@ -6,15 +6,9 @@ on:
 schedule:
       # Será atualizado a cada 5 horas.
     - cron: "0 */5 * * *"
-
-push:
-    branches: [ "main" ]
-  pull_request:  
-    branches: [ "main" ]
-  
-
+    
 # Permite executar na na lista de Actions (utilizado para testes de build).
-workflow_dispatch:
+ workflow_dispatch:
 
 # Regras
 jobs:
