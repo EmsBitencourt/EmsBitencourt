@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao meu Perfil ☠️Emerson Bitencourt❤️
+## Bem-vindo(a) ao meu Perfil ☠️Emerson Bitencourt☠️
 
  <div>
    <a href="https://github.com/EmsBitencourt">
